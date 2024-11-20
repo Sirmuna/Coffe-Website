@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal - youtube.com/@codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website | CodingNepal</title>
+    <!-- Linking Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- Linking Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- link icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/hot-beverages.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕ Coffee</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <div class="hero" id="hero">
+        <div class="hero-txt">
+          <h1 class="best-coffee">Best Coffee</h1>
+          <p class="hero-text">Make your day great with our special coffee!</p>
+          <br />
+          <p class="hero-p">
+            Welcome to our coffee paradise, where every bean tells a story and
+            every cup sparks joy.
+          </p>
+          <br /><br />
+          <div class="buttons">
+            <a href="#" class="btn">Order Now</a>
+            <a href="#" class="btn">Contact Us</a>
+          </div>
+        </div>
+        <div class="coffee">
+          <!-- Coffee Image -->
+          <img
+            src="./images/coffee-hero-section.png"
+            alt="cup of coffee"
+            class="cup-of-coffee"
+          />
+        </div>
+      </div>
+      <!-- Hero section ends -->
+
+      <!-- About section -->
+      <div id="about">
+        <div class="about">
+          <div class="about-img">
+            <img
+              src="./images/about-image.jpg"
+              alt="young man smiling with a cup of coffee"
+            />
+          </div>
+          <div class="about-us">
+            <h1 class="us">ABOUT US</h1>
+            <br />
+            <p>
+              At Coffee House in Berndorf, Germany, we pride ourselves on being
+              a go-to destination for coffee lovers and conversation seekers
+              alike. We're dedicated to providing an exceptional coffee
+              experience in a cozy and inviting atmosphere, where guests can
+              relax, unwind, and enjoy their time in comfort
+            </p>
+            <br />
+            <div class="svg">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About section end  -->
+
+      <!-- Menu section -->
+      <div class="menu" id="menu">
+        <h1 class="menu-h">Our Menu</h1>
+        <div class="menu-list">
+          <div class="menu-img">
+            <img
+              src="./images/hot-beverages.png"
+              alt="hot beverage"
+              class="menu-item"
+            />
+            <h2>Hot Beverages</h2>
+            <br />
+            <p>
+              wide range of steaming hot coffee to make you fresh and light.
+            </p>
+          </div>
+          <div class="menu-img">
+            <img
+              src="./images/cold-beverages.png"
+              alt="cold beverage"
+              class="menu-item"
+            />
+            <h2>Cold Beverages</h2>
+            <br />
+            <p>Creamy and frothy cold coffee to make you cool.</p>
+          </div>
+          <div class="menu-img">
+            <img src="./images/refreshment.png" alt="juice" class="menu-item" />
+            <h2>Refreshment</h2>
+            <br />
+            <p>Fruit and icy refreshing drink to make feel refresh.</p>
+          </div>
+          <div class="menu-img">
+            <img
+              src="./images/special-combo.png"
+              alt="special combo"
+              class="menu-item"
+            />
+            <h2>Special Combos</h2>
+            <br />
+            <p>Your favorite eating and drinking combinations.</p>
+          </div>
+          <div class="menu-img">
+            <img src="./images/desserts.png" alt="dessert" class="menu-item" />
+            <h2>Dessert</h2>
+            <br />
+            <p>Satiate your palate and take you on a culinary treat.</p>
+          </div>
+          <div class="menu-img">
+            <img
+              src="./images/burger-frenchfries.png"
+              alt="Burger"
+              class="menu-item"
+            />
+            <h2>Burger & French Fries</h2>
+            <br />
+            <p>Quick bites to satisfy your small size hunger.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- end meu section-->
+
+      <!-- Testimonials section -->
+      <div id="testimonials">
+        <h1 class="testimonial-txt">TESTIMONIALS</h1>
+        <div class="testimonials">
+          <div class="testimony">
+            <img src="./images/user-1.jpg" alt="lady" />
+            <h3>Sarah Johnson</h3>
+            <br />
+            <p>
+              "Loved the French roast. Perfectly balanced and rich. Will order
+              again!"
+            </p>
+          </div>
+          <div class="testimony">
+            <img src="./images/user-2.jpg" alt="guy" />
+            <h3>James Wilson</h3>
+            <br />
+            <p>
+              "Great espresso blend! Smooth and bold flavor. Fast shipping too!"
+            </p>
+          </div>
+          <div class="testimony">
+            <img src="./images/user-3.jpg" alt="guy" />
+            <h3>Michael Brown</h3>
+            <br />
+            <p>"Fantastic machaflavor. Fresh and aromatic. Quick shipping!"</p>
+          </div>
+        </div>
+      </div>
+      <!-- end Testimonials section -->
+
+      <!-- Gallery section -->
+      <div id="gallery">
+        <h1 class="gallery-txt">GALLERY</h1>
+        <div class="gallery">
+          <div class="gallery-images">
+            <div class="gimg">
+              <img src="./images/gallery-1.jpg" alt="gallery images" />
+            </div>
+            <div class="gimg">
+              <img src="./images/gallery-2.jpg" alt="gallery images" />
+            </div>
+            <div class="gimg">
+              <img src="./images/gallery-3.jpg" alt="gallery images" />
+            </div>
+            <div class="gimg">
+              <img src="./images/gallery-4.jpg" alt="gallery images" />
+            </div>
+            <div class="gimg">
+              <img src="./images/gallery-5.jpg" alt="gallery images" />
+            </div>
+            <div class="gimg">
+              <img src="./images/gallery-6.jpg" alt="gallery images" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End gallery -->
+
+      <!-- Contact section -->
+      <div id="contact">
+        <h1 class="contact-txt">CONTACT US</h1>
+        <div class="contact-wrap">
+          <div class="contact-text">
+            <div class="contact-list">
+              <i class="fas fa-compass"></i
+              ><span>123 Campsite Avenue, Wilderness, CA 98765</span
+              ><br /><br />
+              <i class="fas fa-envelope"></i
+              ><span>info@coffeeshopwebsite.com</span><br /><br />
+              <i class="fas fa-phone"></i><span>(123) 456-78909</span
+              ><br /><br />
+              <i class="fas fa-clock"></i
+              ><span>123 Campsite Avenue, Wilderness, CA 98765</span
+              ><br /><br />
+              <i class="fas fa-clock"></i
+              ><span>123 Campsite Avenue, Wilderness, CA 98765</span
+              ><br /><br />
+              <i class="fas fa-clock"></i
+              ><span>123 Campsite Avenue, Wilderness, CA 98765</span
+              ><br /><br />
+              <i class="fas fa-globe"></i
+              ><span>123 Campsite Avenue, Wilderness, CA 98765</span
+              ><br /><br />
+            </div>
+          </div>
+          <h2 class="form-heading">Your review matters alot</h2>
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <form action="https://formspree.io/f/myzypdne" method="POST">
+              <input
+                type="text"
+                required
+                name="Full_name"
+                placeholder="Your name"
+                class="contact-formtxt"
+              /><br />
+              <input
+                type="text"
+                required
+                name="Email"
+                placeholder="Your email"
+                class="contact-formtxt"
+              /><br />
+              <textarea
+                required
+                name="Message"
+                placeholder="Your message"
+                class="contact-msg"
+                type="text"
+              ></textarea>
+              <br />
+              <input
+                style="color: #fff; border: none"
+                type="submit"
+                value="Submit"
+                class="contact-btn"
+              />
+            </form>
+          </div>
+          <!-- End Contact form -->
+        </div>
+      </div>
+      <!-- End contact -->
+
+      <!-- Footer section -->
+      <footer>
+        <span
+          >&copy; 2024 Coffee Shop | Designed by
+          <a href="https://tinyurl.com/Sirmuna">Sir Muna</a></span
+        >
+
+        <span class="footer-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </span>
+
+        <span> Privacy &blacksquare; Refund policy </span>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>

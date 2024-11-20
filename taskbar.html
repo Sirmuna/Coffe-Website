@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header{
+            width: 100%;
+            position: fixed;
+            background-color: #f4f4f4;
+        }
+        .nav{
+            width: 90%;
+            margin: 0 auto;
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .nav a{
+            text-decoration: none;
+            color: green;
+            padding: 10px;
+            border-radius: 20%;
+            background: linear-gradient(to-right, blue, red);
+        }
+        .nav a:hover{
+            color: purple;
+        }
+        .nav a:first-child{
+            color: #000;
+            font-weight: bolder;
+            margin-right: auto;
+            font-family: cursive;
+            font-size: 24px;
+        }
+        .logo {
+            float: left;
+            color: #0000ff;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <div class="nav">
+            <a href="#" class="logo">Navigate</a>
+            <a href="#" class="nav-links">Home</a>
+            <a href="#" class="nav-links">Services</a>
+            <a href="#" class="nav-links">Contact</a>
+            <a href="#" class="nav-links">Premium</a>
+        </div>
+    </header>
+    <!-- hero section -->
+    <main>
+        <div class="hero">
+            <h1>I am Sir Muna</h1>
+            <span class="cyber-text">I AM THE CYBER LORD</span>
+        </div>
+    </main>
+</body>
+</html>
