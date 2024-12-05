@@ -124,7 +124,12 @@ header .navbar {
   border-radius: var(--border-radius-m);
   transition: 0.3s ease;
 }
-
+#dev{
+  background-color: #f3961c59;
+}
+#dev:hover{
+  background-color: #f3961c;
+}
 .navbar .nav-menu .nav-link:hover {
   color: var(--primary-color);
   background: var(--secondary-color);
@@ -650,7 +655,7 @@ footer a {
 }
 
 /* Responsive media query code for max width 900px */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   :root {
     --font-size-m: 1rem;
     --font-size-l: 1.3rem;
